@@ -20,3 +20,8 @@ https://github.com/Z3tt/30DayChartChallenge_Collection2021
 <a href="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/Day4/day4.png"><img src="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/Day4/day4.png" width=30% height=30%>
   
 [Code](https://github.com/kellycotton/30DayCharts/blob/main/code/Day4/Day4.R)
+
+## Day 5
+<a href="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/Day4/day5.png"><img src="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/Day4/day5.png" width=30% height=30%>
+  
+[Code](https://github.com/kellycotton/30DayCharts/blob/main/code/Day5/Day5.R)
