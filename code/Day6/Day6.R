@@ -1,7 +1,7 @@
 # Day 6: Experimental
 # 04/05/2021
 # https://github.com/Z3tt/30DayChartChallenge_2021
-# Data: 
+# Data: https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-04-06/readme.md
 
 # Setup-----
 library(tidyverse)
@@ -60,7 +60,7 @@ ggplot(dat, aes(x = year_1990, xend = year_2015, y = reorder(entity, y), group =
   theme(
     panel.grid.minor = element_blank(),
     panel.grid.major.y = element_blank(),
-    axis.title = element_blank(),
+    axis.title.y = element_blank(),
     plot.title = element_text(size = 20, face = "bold"),
     plot.subtitle = element_text(size = 10),
     plot.caption = element_text(size = 8),
@@ -75,6 +75,7 @@ Net change measures any gains in forest cover (natural forest expansion or tree-
 losing more than they are able to restore. The arrows are meant to recreate the Muller-Lyer illusion, an optical illusion that may be influenced by our 
 environment. Research has found that people from rural areas are much less susceptible to the illusion compared to people from urban areas.",
        caption = "Created by @kllycttn | Data from Hannah Ritchie and Max Roser, Our World in Data | #TidyTuesday") +
+  xlab("Net change in forest cover (hectares)") +
   annotate(geom = "segment",
            x = dat$year_1990,
            xend = dat$xend_1,
