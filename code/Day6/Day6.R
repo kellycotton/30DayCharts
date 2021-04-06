@@ -104,5 +104,5 @@ environment. Research has found that people from rural areas are much less susce
            color = "#3B5249",
            size = 0.75)
 
-ggsave(here::here("code", "Day5", "day5.png"), width = 9.8, units = "in")
+ggsave(here::here("code", "Day6", "day6.png"), width = 9.8, units = "in")
 
