@@ -1,5 +1,5 @@
-# Day 10: Statistics
-# 04/09/2021
+# Day 10: Abstract
+# 04/10/2021
 # https://github.com/Z3tt/30DayChartChallenge_2021
 # Data: https://github.com/MuseumofModernArt/collection
 
