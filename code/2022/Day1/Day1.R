@@ -46,6 +46,6 @@ ggplot(totals, aes(x = type, y = amount, fill = category)) +
     panel.grid.major.x = element_blank()
   )
 
-ggsave(here::here("code","2022", "Day1", "day1.png"), width = 11, height = 8, unit = "in")
+ggsave(here::here("code","2022", "Day1", "day1.png"), width = 11, height = 8, unit = "in", bg = "white")
 
 
