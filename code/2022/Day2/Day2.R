@@ -1,4 +1,4 @@
-# Day 2: Part-to-Whole comparison
+# Day 2: Pictogram
 # 04/02/2021
 # https://github.com/30DayChartChallenge/Edition2022
 
@@ -10,9 +10,19 @@ library(waffle)
 
 
 # Read data
-babynames <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-03-22/babynames.csv')
+breed_traits <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-02-01/breed_traits.csv')
+breed_rank_all <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-02-01/breed_rank.csv')
 
+breed_traits <- janitor::clean_names(breed_traits)
+breed_rank_all <- janitor::clean_names(breed_rank_all)
 
-data_2017 <- babynames %>% 
-  filter(year == 2017) %>% 
-  slice_max(order_by = n, n = 100)
+breed_traits <- breed_traits %>% 
+  mutate(breed = gsub("[[:punct:]]","" , breed)) # remove punctuation
+
+breed_rank_all <- breed_rank_all %>% 
+  mutate(breed = gsub("[[:punct:]]","" , breed)) # remove punctuation
+
+breed_combined <- left_join(breed_traits, breed_rank_all, by = "breed")
+
+top_breed <- breed_traits %>% 
+  filter(breed %in% top_3)
