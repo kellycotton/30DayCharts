@@ -9,11 +9,7 @@ library(treemap)
 library(patchwork)
 library(ggfittext)
 
-<<<<<<< HEAD
 theme_set(theme_minimal(base_family = "Lora"))
-=======
-theme_set(theme_minimal(base_family = "Noto Serif"))
->>>>>>> a9a6b4bcc51314261e89b90a8c698c7e0afbcf46
 
 
 # Read data
@@ -58,14 +54,10 @@ p1 <- ggplot(cont_map_data, aes(xmin = x0, ymin = y0, xmax = x1, ymax = y1)) +
   # set thicker lines for group borders
   scale_size(range = range(cont_map_data$primary_group)) +
   # add labels
-<<<<<<< HEAD
   ggfittext::geom_fit_text(aes(label = label_name), 
                            min.size = 1, 
                            reflow = TRUE,
                            family = "Jost",) +
-=======
-  ggfittext::geom_fit_text(aes(label = label_name), min.size = 1, reflow = TRUE) +
->>>>>>> a9a6b4bcc51314261e89b90a8c698c7e0afbcf46
   # options
   scale_x_continuous(expand = c(0, 0)) +
   scale_y_continuous(expand = c(0, 0)) +
@@ -108,14 +100,10 @@ p2 <- ggplot(africa_map_data, aes(xmin = x0, ymin = y0, xmax = x1, ymax = y1)) +
   # set thicker lines for group borders
   scale_size(range = range(africa_map_data$primary_group)) +
   # add labels
-<<<<<<< HEAD
   ggfittext::geom_fit_text(aes(label = label_name), 
                            min.size = 1, 
                            reflow = TRUE,
                            family = "Jost",) +
-=======
-  ggfittext::geom_fit_text(aes(label = label_name), min.size = 1, reflow = TRUE) +
->>>>>>> a9a6b4bcc51314261e89b90a8c698c7e0afbcf46
   # options
   scale_x_continuous(expand = c(0, 0)) +
   scale_y_continuous(expand = c(0, 0)) +
@@ -137,7 +125,6 @@ p3 <- ggplot() +
 
 p1/ p3 /p2  +
   plot_annotation(
-<<<<<<< HEAD
     title = " Plants in Danger: Where are plants going extinct?",
     subtitle = " Across the globe, plants are experiencing extensive biodiversity loss. However, the impact of this loss is not equally spread 
 across the continents. As of 2020, 500 plants species are considered extinct, with nearly 20% from Madagascar alone.",
@@ -152,15 +139,3 @@ across the continents. As of 2020, 500 plants species are considered extinct, wi
 
 ggsave(here::here("code","2022", "Day4", "day4.png"), width = 11, height = 8, unit = "in", bg = "white")
 
-=======
-    title = "Where are the extinct plants?",
-    subtitle = "",
-    caption = "Created by @kllycttn | Data from the International Union for Conservation of Nature"
-  ) +
-  plot_layout(heights = c(2,1,2)) &
-  theme(
-    plot.title = element_text(size = 25),
-    plot.margin = margin(0, 0, 0, 0, unit = "in")
-  ) 
-
->>>>>>> a9a6b4bcc51314261e89b90a8c698c7e0afbcf46
