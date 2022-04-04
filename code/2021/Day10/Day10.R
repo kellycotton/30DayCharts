@@ -48,7 +48,7 @@ ggplot(art_data) +
     title = "The MoMA Collection",
     subtitle = "What is most common type of art at the Museum of Modern Art? 
 <br>**33,025 photographs**. The design below is modeled after the 
-<br>abstract artist Hilma af Klimt's *Series VIII. Picture of the Starting 
+<br>abstract artist Hilma af Klint's *Series VIII. Picture of the Starting 
 <br>Point*, 1920.",
     caption = "Created by @kllycttn | Data from the Museum of Modern Art "
   ) +
