@@ -63,5 +63,5 @@ ggplot(art_data) +
     legend.box.margin = margin(0,0,15,0)
   ) 
 
-ggsave(here::here("code", "Day10", "day10.png"), height = 7, width = 5.05, units = "in")
+ggsave(here::here("code", "2021", "Day10", "day10.png"), height = 7, width = 5.05, units = "in")
 
