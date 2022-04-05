@@ -65,7 +65,7 @@ ggplot(coverage, aes(x = decade, y = n, color = color, group = topic, alpha = al
   labs(
     title = "How has local news changed?",
     subtitle = "In the US and Canada, 685 digitally focused, local news organizations were founded between 2000 and 2019.",
-    caption = "Created by @kllycttn | Data from the Project Oasis"
+    caption = "Created by @kllycttn | Data from Project Oasis"
   ) +
   theme(
     panel.grid.major.y = element_blank(), 
