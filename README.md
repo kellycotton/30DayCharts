@@ -26,6 +26,11 @@ https://github.com/30DayChartChallenge/Edition2022
   
 [code](https://github.com/kellycotton/30DayCharts/blob/main/code/2022/Day5/Day5.R)
 
+## Day 6
+<a href="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/2022/Day6/day6.png"><img src="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/2022/Day6/day6.png" width=30% height=30%>
+  
+[code](https://github.com/kellycotton/30DayCharts/blob/main/code/2022/Day6/Day6.R)
+
 # 30DayCharts 2021
 https://github.com/Z3tt/30DayChartChallenge_Collection2021
 
