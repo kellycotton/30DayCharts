@@ -1,6 +1,7 @@
 # Day 6: Our World in Data
 # 04/05/2021
 # https://github.com/30DayChartChallenge/Edition2022
+# Data from Our World in Data
 
 
 # Setup-----
@@ -114,7 +115,7 @@ legend_plot <- tibble(
   theme_void() +
   theme(
     plot.margin = unit(c(0.5, 1.5, 0.5, 1.5), "cm"),
-    plot.caption = element_markdown(size = 10)
+    plot.caption = element_markdown(size = 11)
   ) +
   coord_cartesian(ylim = c(0.7, 1.2), xlim = c(0, 108)) +
   labs(
@@ -124,17 +125,16 @@ legend_plot <- tibble(
 water_plot / legend_plot & plot_layout(heights = c(14,1)) &
   plot_annotation(
     title = "How much of the world's population has access to safe drinking water in 2020?",
-    subtitle = "Safely managed drinking water is defined as “Improved source located on premises, available when needed, and 
-free from microbiological and priority chemical contamination.” The data below show the countries with the lowest 
-share of the population with safe water-access for each continent. Each colored bar represents the share of the 
-population for that country and the gray bars indicate the average access for the continent. The black line 
-indicates the world average: 75%.",
+    subtitle = "Safely managed drinking water is defined as “Improved source located on premises, available when needed, and free from microbiological 
+and priority chemical contamination.” The data below show the countries with the lowest share of the population with safe water-access for 
+each continent. Each colored bar represents the share of the population for that country and the gray bars indicate the average access for the 
+continent. The black line indicates the world average: 75%.",
     theme = theme(
       plot.title = element_text(size = 30, family = "Merriweather"),
       plot.subtitle = element_text(size = 20)
     )
   )
 
-ggsave(here::here("code","2022", "Day6", "day6.png"), height = 16, width = 16, units = "in", bg = "white")
+ggsave(here::here("code","2022", "Day6", "day6.png"), height = 16, width = 17, units = "in", bg = "white")
 
 
