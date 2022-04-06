@@ -123,7 +123,7 @@ legend_plot <- tibble(
 
 water_plot / legend_plot & plot_layout(heights = c(14,1)) &
   plot_annotation(
-    title = "What share of people have access to safe drinking water in 2020?",
+    title = "How much of the world's population has access to safe drinking water in 2020?",
     subtitle = "Safely managed drinking water is defined as “Improved source located on premises, available when needed, and 
 free from microbiological and priority chemical contamination.” The data below show the countries with the lowest 
 share of the population with safe water-access for each continent. Each colored bar represents the share of the 
