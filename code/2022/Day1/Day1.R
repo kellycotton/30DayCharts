@@ -1,6 +1,8 @@
 # Day 1: Part-to-Whole comparison
 # 04/01/2021
 # https://github.com/Z3tt/30DayChartChallenge_2021
+# Data: Equity in Athletics Data Analysis
+# https://ope.ed.gov/athletics/#/datafile/list
 
 
 # Setup-----

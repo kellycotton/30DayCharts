@@ -1,6 +1,8 @@
 # Day 5: Slopes
 # 04/05/2021
 # https://github.com/30DayChartChallenge/Edition2022
+# Data: Project Oasis
+# https://www.projectnewsoasis.com/publications
 
 
 # Setup-----

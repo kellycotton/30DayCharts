@@ -1,6 +1,8 @@
 # Day 2: Pictogram
 # 04/02/2021
 # https://github.com/30DayChartChallenge/Edition2022
+# Data: American Kennel Club c/o kkakey
+# https://github.com/kkakey/dog_traits_AKC/blob/main/README.md
 
 
 # Setup-----

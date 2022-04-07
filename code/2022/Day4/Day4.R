@@ -1,6 +1,8 @@
 # Day 4: Flora
 # 04/04/2021
 # https://github.com/30DayChartChallenge/Edition2022
+# Data: International Union for Conservation of Nature (IUCN) c/o Florent Lavergne
+# https://www.iucnredlist.org/
 
 
 # Setup-----
