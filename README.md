@@ -41,6 +41,11 @@ https://github.com/30DayChartChallenge/Edition2022
   
 [code](https://github.com/kellycotton/30DayCharts/blob/main/code/2022/Day8/Day8.R)
 
+## Day 9
+<a href="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/2022/Day9/day9.png"><img src="https://raw.githubusercontent.com/kellycotton/30DayCharts/main/code/2022/Day9/day9.png" width=30% height=30%>
+  
+[code](https://github.com/kellycotton/30DayCharts/blob/main/code/2022/Day9/Day9.R)
+
 # 30DayCharts 2021
 https://github.com/Z3tt/30DayChartChallenge_Collection2021
 
